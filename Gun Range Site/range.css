@@ -1,0 +1,288 @@
+#nav{
+    width:100%;
+    height:auto;
+    border-bottom:1px solid grey;
+}
+.nav-page-links{
+    color:black;
+    text-decoration:none;
+    text-align:center;
+    transition:0.5s;
+    margin-right:10%;
+}
+ul{
+    font-size:23px;
+}
+a:hover{
+    color:#e79618;
+}
+
+body{
+    text-align:center;
+}
+#footer {
+    bottom: 0;
+    width: 99%;
+    height: 4%;           /* Footer height */
+    list-style-type:none;
+    font-size:20px;
+    display:flex;
+    justify-content: center;
+    border-top:1px solid grey;
+  }
+  #follow-us-location{
+      margin-top:-20px;
+      margin-right:10%;
+  }
+  #contact-us-location{
+    margin-top:-20px;
+    margin-right:10%;
+    text-decoration: none;
+    color:black;
+  }
+  .fa-youtube{
+      font-size:25px;
+      color:red;
+  }
+  .fa-facebook-square{
+      font-size:25px;
+      color:#3b5998;
+  }
+  .fa-phone-alt{
+      color:#23dc4c;
+  }
+  #attribution-text{
+      font-size:12px;
+  }
+  #phone-number-link{
+      color:black;
+      text-decoration:none;
+  }
+  #email-text-color-decoration{
+      text-decoration:none;
+      color:black;
+  }
+  #form-location-color{
+      border:1px solid #93350e;
+      height:auto;
+      width:100%;
+      text-align:center;
+      color:black;
+      border-radius:5%;
+      box-shadow: 5px 10px #c4c4c4;
+  }
+  #contact-form-container{
+      font-size:20px;
+      margin-top:2%;
+      width:20%;
+      
+  }
+  #location-hours-container{
+    float:right;
+    font-size:16px;
+    margin-top:2%;
+}
+#flex-display-containers{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:8%;
+}
+  .fa-map-marker-alt{
+      color:#ed3112;
+      font-size:20px;
+      margin-right:10px;
+  }
+#hours-days-of-operation{
+    list-style-type:none;
+    font-size:20px;
+}
+.hours-of-operation-spacing{
+    margin-top:1%;
+    font-size:20px;
+}
+textarea{
+    width:80%;
+    height:80px;
+    border-radius:10px;
+}
+.contact-form-input-size-style{
+    border-radius:10px;
+    width:80%;
+    font-size:20px;
+    text-align:center;
+}
+input{
+    border:1px solid #3f403f;
+    margin-top:2%;
+    width:50%;
+}
+.left-center-input-text{
+    margin-right:60%;
+    font-size:25px;
+}
+#submit-input{
+    font-size:20px;
+    border-radius:10px;
+    margin:none;
+    transition: 0.75s;
+    border:none;
+    background-color:black;
+    color:white;
+}
+#submit-input:hover{
+    color:#e79618;
+    cursor:pointer;
+}
+#home-page-image{
+height:400px;
+width:100%;
+display:flex;
+overflow:hidden;
+max-width: 1920px;
+}
+#home-page-card-container{
+    display:flex;
+    justify-content: space-around;
+    margin-top:2%;
+    font-size:18px;
+}
+.home-page-cards-offers{
+    border-radius:10px;
+    border:1px solid #93350e;
+    margin-bottom:1%;
+    box-shadow: 5px 10px #c4c4c4;
+    margin-right:1%;
+    
+}
+.home-page-cards-images{
+    height:350px;
+    width:350px;
+}
+.home-page-card-text{
+    word-wrap:normal;
+    text-decoration:none;
+    list-style-type:none;
+    margin-top:40px;
+}
+.home-page-card-title-text{
+    text-decoration:underline;
+}
+#covid-19-notice{
+    background-color:#e81717;
+    width:99%;
+    position:fixed;
+    bottom:0;
+    border: 1px lightgray;
+    color:white;
+}
+#covid-notice-button{
+    font-size:18px;
+    border:none;
+    height:auto;
+    background:none;
+    color:white;
+    border-radius:10px;
+    margin-top:5px;
+    cursor:pointer;
+    transition:0.5s;
+    background-color:black;
+}
+#covid-notice-button:hover{
+    background-color:black;
+    color:#e79618;
+}
+#logo-image{
+    height:100px;
+    width:100px;
+    float:left;
+}
+i{
+    margin-right:10px;
+}
+.training-section-text{
+    margin-top:5%;
+    margin-bottom:5%;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:10px;
+    display:flex;
+    justify-content: space-around;
+}
+.training-lists-topics{
+    list-style-type:none;
+    font-size:19px;
+    text-align:left;
+    margin-left:10px;
+}
+.training-header-element{
+    text-decoration:underline;
+}
+.training-level-difficulty{/*This class will be on the right side of the for the training and it will indicate the level of difficulty for the available courses.*/
+    margin-left:50%;
+    font-size:19px;
+    margin-top:0.01%;
+    margin-right:0.02%;
+    background-color:black;
+    border-radius:10px;
+    color:#e79618;
+}
+.training-cards-box{
+    border:1px solid #e81717;
+    border-radius:10px;
+    box-shadow: 5px 10px #c4c4c4;
+    margin-right:1%;
+}
+.fa-check{
+    color:green;
+}
+.gun-vault-grid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap:5px;
+}
+.grid-images{
+    height:200px;
+    width:200px;
+}
+@media  screen and (max-width:1024px) {
+    #home-page-card-container{
+        display:flex;
+        flex-direction: column;
+        font-size:16px;
+
+    }
+    #footer{
+        font-size:16px;
+        display:flex;
+        flex-direction: column;
+
+    }
+    .home-page-cards-offers{
+        margin-bottom:5%;
+        margin-top:5%;
+    }
+    .nav-page-links{
+        font-size:16px;
+        margin-top:1%;
+        display:flex;
+        flex-direction: column;
+    }
+    #nav{
+        text-align: center;
+        float:left;
+    }
+    #logo-image{
+        float:right;
+        position:absolute;
+        top:0;
+        left:0;
+
+    }
+    #covid-notice-button{
+        font-size:16px;
+    }
+    #covid{
+        font-size:16px;
+    }
+}

@@ -1,0 +1,9 @@
+Font awesome free license info and plan page, in case anyone asks, 
+
+you used this to come to the conclusion that the icons can be used on the site. 
+
+https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt
+
+https://fontawesome.com/plans
+
+https://www.reddit.com/r/webdev/comments/99ex7p/can_i_sell_a_website_that_uses_fontawesome/font
