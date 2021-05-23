@@ -285,4 +285,18 @@ i{
     #covid{
         font-size:16px;
     }
+    .training-lists-topics{
+        font-size:16px;
+    }
+    .training-level-difficulty{
+        font-size:16px;
+    }
+    .training-section-text{
+        display:flex;
+        flex-direction:column;
+    }
+    .training-cards-box{
+        margin-bottom:5%;
+        margin-top:5%;
+    }
 }
