@@ -70,6 +70,7 @@ body{
     border:none;
     background-color:black;
     color:white;
+    text-align: center;
 }
 #submit-input:hover{
     color:#e79618;
@@ -228,11 +229,23 @@ i{
         font-size:16px;
 
     }
+    .home-page-card-text{
+        font-size:16px;
+    }
+    .home-page-card-title-text{
+        font-size:16px;
+    }
     #footer{
         font-size:16px;
         display:flex;
         flex-direction: column;
 
+    }
+    #follow-us-location{
+        font-size:16px;
+    }
+    #contact-us-location{
+        font-size:16px;
     }
     .home-page-cards-offers{
         margin-bottom:5%;
@@ -282,5 +295,21 @@ i{
     .hours-of-operation-spacing{
         margin-top:10%;
         margin-bottom:10%;
+        font-size:16px;
+    }
+    #training-header-element-contact-page{
+        font-size:16px;
+    }
+    #contact-us-form{
+        font-size:16px;
+    }
+    #submit-input{
+        font-size:16px;
+    }
+    .contact-form-input-size-style{
+        font-size:16px;
+    }
+    #subject-text-box{
+        font-size:16px;
     }
 }
