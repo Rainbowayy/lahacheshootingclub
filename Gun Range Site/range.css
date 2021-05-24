@@ -62,65 +62,7 @@ body{
       text-decoration:none;
       color:black;
   }
-  #form-location-color{
-      border:1px solid #93350e;
-      height:auto;
-      width:100%;
-      text-align:center;
-      color:black;
-      border-radius:5%;
-      box-shadow: 5px 10px #c4c4c4;
-  }
-  #contact-form-container{
-      font-size:20px;
-      margin-top:2%;
-      width:20%;
-      
-  }
-  #location-hours-container{
-    float:right;
-    font-size:16px;
-    margin-top:2%;
-}
-#flex-display-containers{
-    display:flex;
-    justify-content: space-evenly;
-    margin-bottom:8%;
-}
-  .fa-map-marker-alt{
-      color:#ed3112;
-      font-size:20px;
-      margin-right:10px;
-  }
-#hours-days-of-operation{
-    list-style-type:none;
-    font-size:20px;
-}
-.hours-of-operation-spacing{
-    margin-top:1%;
-    font-size:20px;
-}
-textarea{
-    width:80%;
-    height:80px;
-    border-radius:10px;
-}
-.contact-form-input-size-style{
-    border-radius:10px;
-    width:80%;
-    font-size:20px;
-    text-align:center;
-}
-input{
-    border:1px solid #3f403f;
-    margin-top:2%;
-    width:50%;
-}
-.left-center-input-text{
-    margin-right:60%;
-    font-size:25px;
-}
-#submit-input{
+  #submit-input{
     font-size:20px;
     border-radius:10px;
     margin:none;
@@ -132,6 +74,37 @@ input{
 #submit-input:hover{
     color:#e79618;
     cursor:pointer;
+}
+input{
+    border:1px solid #3f403f;
+    margin-top:2%;
+    width:50%;
+}
+.contact-form-input-size-style{
+    border-radius:10px;
+    width:80%;
+    font-size:20px;
+    text-align:center;
+}
+textarea{
+    width:80%;
+    height:80px;
+    border-radius:10px;
+}
+.hours-of-operation-spacing{
+    margin-top:5%;
+    margin-bottom:5%;
+    font-size:20px;
+    text-align: center;
+}
+#hours-days-of-operation{
+    list-style-type:none;
+    font-size:20px;
+}
+.fa-map-marker-alt{
+    color:#ed3112;
+    font-size:20px;
+    margin-right:10px;
 }
 #home-page-image{
 height:400px;
@@ -217,6 +190,9 @@ i{
 .training-header-element{
     text-decoration:underline;
 }
+#training-header-element-contact-page{
+    text-decoration:none;
+}
 .training-level-difficulty{/*This class will be on the right side of the for the training and it will indicate the level of difficulty for the available courses.*/
     margin-left:50%;
     font-size:19px;
@@ -298,5 +274,13 @@ i{
     .training-cards-box{
         margin-bottom:5%;
         margin-top:5%;
+    }
+    #flex-display-containers{
+        font-size:16px;
+        text-align: center;
+    }
+    .hours-of-operation-spacing{
+        margin-top:10%;
+        margin-bottom:10%;
     }
 }
