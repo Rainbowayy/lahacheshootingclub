@@ -108,11 +108,11 @@ textarea{
     margin-right:10px;
 }
 #home-page-image{
-height:400px;
-width:100%;
 display:flex;
 overflow:hidden;
-max-width: 1920px;
+width:100%;
+align-items: center;
+max-height: 1080px;
 }
 #home-page-card-container{
     display:flex;
@@ -129,8 +129,8 @@ max-width: 1920px;
     
 }
 .home-page-cards-images{
-    height:350px;
-    width:350px;
+    height:500px;
+    width:95%;
 }
 .home-page-card-text{
     word-wrap:normal;
@@ -311,5 +311,86 @@ i{
     }
     #subject-text-box{
         font-size:16px;
+    }
+}
+@media  screen and (max-width:1920px){
+    #home-page-card-container{
+        display:flex;
+        flex-direction: row;
+        font-size:19px;
+
+    }
+    .home-page-card-text{
+        font-size:19px;
+    }
+    .home-page-card-title-text{
+        font-size:19px;
+    }
+    #footer{
+        font-size:19px;
+        display:flex;
+        flex-direction:  row;
+
+    }
+    #follow-us-location{
+        font-size:19px;
+    }
+    #contact-us-location{
+        font-size:19px;
+    }
+    .home-page-cards-offers{
+        margin-left:2%;
+        margin-right:2%;
+    }
+    .nav-page-links{
+        font-size:19px;
+        margin-top:1%;
+    }
+    #nav{
+        text-align: center;
+    }
+    #covid-notice-button{
+        font-size:19px;
+    }
+    #covid{
+        font-size:19px;
+    }
+    .training-lists-topics{
+        font-size:19px;
+    }
+    .training-level-difficulty{
+        font-size:19px;
+    }
+    .training-section-text{
+        display:flex;
+        flex-direction: row;
+    }
+    .training-cards-box{
+        margin-left:2%;
+        margin-right:2%;
+    }
+    #flex-display-containers{
+        font-size:19px;
+        text-align: center;
+    }
+    .hours-of-operation-spacing{
+        margin-top:10%;
+        margin-bottom:10%;
+        font-size:19px;
+    }
+    #training-header-element-contact-page{
+        font-size:19px;
+    }
+    #contact-us-form{
+        font-size:19px;
+    }
+    #submit-input{
+        font-size:19px;
+    }
+    .contact-form-input-size-style{
+        font-size:19px;
+    }
+    #subject-text-box{
+        font-size:19px;
     }
 }
