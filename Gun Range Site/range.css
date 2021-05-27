@@ -313,7 +313,7 @@ i{
         font-size:16px;
     }
 }
-@media  screen and (min-width:1920px){
+@media screen and (min-width:1025px) {
     #home-page-card-container{
         display:flex;
         flex-direction: row;
